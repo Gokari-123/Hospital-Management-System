@@ -1,0 +1,12 @@
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Application.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Controller\AuthController.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Controller\DoctorController.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Controller\PatientController.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Entity\Doctor.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Entity\Patient.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Repository\DoctorRepository.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Repository\PatientRepository.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Security\JwtUtil.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Security\SecurityConfig.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Services\DoctorService.java
+C:\project\Hospital-Management-System\Hospital-Management-Systemcom.example\src\main\java\Hospital\Management\System\com\example\Services\PatientService.java
