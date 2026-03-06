@@ -37,4 +37,12 @@ public class PatientService {
     public List<Patient> getAllPatient(){
         return patientRepository.findAll();
     }
+
+    public String deletePatient(Long id) {
+        if (!patientRepository.existsById(id)) {
+            throw new RuntimeException("Patient not found with id:" + id);
+        }
+            patientRepository.deleteById(id);
+            return "Patient deleted successfully";
+    }
 }

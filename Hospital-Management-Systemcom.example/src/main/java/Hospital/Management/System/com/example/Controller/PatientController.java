@@ -27,4 +27,9 @@ public class PatientController {
         return patientService.getAllPatient();
 
     }
+
+    @DeleteMapping("/deletePatient/{id}")
+    public String deletePatient(@PathVariable Long id){
+        return patientService.deletePatient(id);
+    }
 }

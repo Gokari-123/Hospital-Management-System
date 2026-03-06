@@ -25,4 +25,11 @@ public class DoctorController {
     public List<Doctor> getAllDoctor(){
         return doctorService.getAllDoctor();
     }
+
+    @DeleteMapping("/delete/{id}")
+    public String deleteDoctor(@PathVariable Long id){
+        return doctorService.deleteDoctor(id);
+    }
+
+
 }
