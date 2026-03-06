@@ -28,4 +28,13 @@ public class DoctorService {
     public List<Doctor> getAllDoctor(){
         return doctorRepository.findAll();
     }
+
+    public String deleteDoctor(Long id){
+        if(!doctorRepository.existsById(id)){
+            throw new RuntimeException("Doctor not found with id: " + id);
+        }
+        doctorRepository.deleteById(id);
+        return "Doctor deleted successfully";
+
+    }
 }
