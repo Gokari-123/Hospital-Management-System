@@ -1,12 +1,16 @@
+Hospital\Management\System\com\example\Exception\DuplicateResourceException.class
 Hospital\Management\System\com\example\Security\JwtUtil.class
 Hospital\Management\System\com\example\Controller\PatientController.class
+Hospital\Management\System\com\example\Controller\GlobalExceptionHandler.class
 Hospital\Management\System\com\example\Repository\PatientRepository.class
 Hospital\Management\System\com\example\Application.class
 Hospital\Management\System\com\example\Security\SecurityConfig.class
+Hospital\Management\System\com\example\Error\ApiErrorResponse.class
 Hospital\Management\System\com\example\Entity\Doctor.class
 Hospital\Management\System\com\example\Entity\Patient.class
 Hospital\Management\System\com\example\Services\DoctorService.class
 Hospital\Management\System\com\example\Services\PatientService.class
+Hospital\Management\System\com\example\Controller\ErrorResponse.class
 Hospital\Management\System\com\example\Controller\DoctorController.class
 Hospital\Management\System\com\example\Repository\DoctorRepository.class
 Hospital\Management\System\com\example\Controller\AuthController.class

@@ -17,7 +17,8 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())   // disable CSRF for Postman
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/**", "/doctors/**").permitAll()
+                        .requestMatchers("/auth/**", "/doctor/**", "/patient/**").permitAll()
+
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form.disable())
