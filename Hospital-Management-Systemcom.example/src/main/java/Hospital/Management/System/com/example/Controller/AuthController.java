@@ -26,7 +26,7 @@ public class AuthController {
         Doctor dbDoctor  =doctorRepository.findByEmail(doctor.getEmail()).orElseThrow();
 
         if(dbDoctor.getPassword().equals(doctor.getPassword())){
-            return jwtUtil.generateTocken(dbDoctor.getEmail());
+            return jwtUtil.generateToken(dbDoctor.getEmail());
         }else {
             throw new RuntimeException("Invalid Login");
         }
