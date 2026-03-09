@@ -32,4 +32,9 @@ public class DoctorController {
     }
 
 
+
+    // For Swagger connetion use this URL //
+   // http://localhost:8080/swagger-ui/index.html//
+
+
 }
